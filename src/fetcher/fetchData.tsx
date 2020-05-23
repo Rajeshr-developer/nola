@@ -12,12 +12,12 @@ export const FetchData = () => {
     const [data, setState] = useState({ data: [] });
 
     const dynamicChecking = () => {
-        async function fetchnw() {
+        async function fetchJsonData() {
             const jsondata = await fetch(fetchURL);
             return jsondata.json();
         }
         const interval = setInterval(() => {
-            fetchnw().then((value) => {
+            fetchJsonData().then((value) => {
                 if (JSON.stringify(value) !== JSON.stringify(dataVal)) {
                     dataVal = value;
                     setState({ data: value });
