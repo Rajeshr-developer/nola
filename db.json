@@ -1,0 +1,45 @@
+{
+  "User": {
+    "id": 1,
+    "name": "Ram",
+    "lat": 120.23,
+    "lon": 79.702325
+  },
+  "Cabs": [
+    {
+      "id": 1,
+      "name": "PY-10-J-903",
+      "lat": 600.916064,
+      "lon": 89.812325,
+      "available": true
+    },
+    {
+      "id": 2,
+      "name": "PY-01-Q-783",
+      "lat": 320.916064,
+      "lon": 219.812325,
+      "available": true
+    },
+    {
+      "id": 3,
+      "name": "PY-06-B-23",
+      "lat": 102.916064,
+      "lon": 320.812325,
+      "available": true
+    },
+    {
+      "id": 4,
+      "name": "PY-03-P-90",
+      "lat": 705.916064,
+      "lon": 320.812325,
+      "available": true
+    },
+    {
+      "id": 5,
+      "name": "PY-01-B-233",
+      "lat": 290.916064,
+      "lon": 380.812325,
+      "available": true
+    }
+  ]
+}
