@@ -1,4 +1,4 @@
-import React, { useMemo } from 'react';
+import React from 'react';
 import MemoCars from '../memo/mymemo';
 import { CustomContext } from '../fetcher/fetchData';
 
