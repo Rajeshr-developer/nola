@@ -19,7 +19,7 @@
     "react-scripts": "3.4.1",
     "styled-components": "^5.1.0",
     "typescript": "~3.7.2",
-    "async": "~0.2.5",
+    "async": "~2.6.4",
     "cors": "^2.8.5",
     "express": "^3.1.2",
     "express-graphql": "^0.9.0",
